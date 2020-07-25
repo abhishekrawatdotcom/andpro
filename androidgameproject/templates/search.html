@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="2">
+    <thead>
+
+    <th>game_name</th>
+    </thead>
+    {% for i in prod %}
+    <tr>
+
+        <th>{{ i.Game_name }}</th>
+
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
